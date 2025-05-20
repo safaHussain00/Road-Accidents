@@ -1,0 +1,287 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7f6; /* Light greyish background */
+    color: #333; /* Default text color */
+}
+
+/* Header styles */
+.header {
+    background: linear-gradient(90deg, #008080, #2E8B57); /* Teal to green gradient */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid #4f9f86;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Back button */
+.back-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #008080;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: #4f9f86; /* Green hover effect */
+}
+
+/* Content container */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff; /* White container background */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow for elegance */
+}
+
+/* Highlighted "Explore More" section */
+.highlight {
+    background: linear-gradient(to right, #008080, #4f9f86); /* Teal to green gradient */
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.highlight h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.highlight p {
+    font-size: 16px;
+}
+
+.explore-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.explore-buttons button {
+    padding: 12px 20px;
+    background: #ffffff;
+    color: #008080;
+    border: 2px solid #008080;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.explore-buttons button:hover {
+    background: #4f9f86; /* Green hover background */
+    color: white;
+    border: 2px solid #4f9f86;
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #008080; /* Teal headers */
+    border-bottom: 2px solid #4f9f86; /* Green line */
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.section p, ul {
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+/* Charts and iframes */
+canvas, iframe {
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Form styling (Reports page) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    background: #f4f7f6; /* Light greyish background for inputs */
+}
+
+textarea {
+    resize: none;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background: #008080; /* Teal button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #4f9f86; /* Green hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .content {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .section h2 {
+        font-size: 18px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+}
+/* General body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDF2F4; /* Greyish background */
+    color: #333; /* Default text color */
+}
+
+/* Header styles */
+.header {
+    background: linear-gradient(90deg, #008080, #2E8B57); /* Teal to green gradient */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid #4f9f86;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* Back button styles */
+.back-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #008080;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background: #4f9f86;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styles */
+.input-group {
+    margin-bottom: 16px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #8D99AE;
+    border-radius: 8px;
+    background-color: #2B2D42; /* Dark grey input background */
+    color: #fff;
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #008080; /* Teal button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #4f9f86; /* Green hover effect */
+}
+
+/* Output container styling */
+.output-container {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background: #4f9f86;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
